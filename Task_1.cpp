@@ -37,7 +37,7 @@ std::cout<<"Account 1 Balance is:"<<acct1.getBalance( )<<'\n';
 cout<<"\nDo you want to withDraw some amount [y/n] ";
 char choice;
 cin>>choice;
-if(choice=='j')
+if(choice=='Y' || choice=='y')
 {
   cout<<"\nEnter withdraw amount: ";
   cin>>withDraw_amount;
